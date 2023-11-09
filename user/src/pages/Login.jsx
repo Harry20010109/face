@@ -28,6 +28,7 @@ const Login = () => {
   useEffect(() => {
     if (webcamRef.current) {
       Webcam.set({
+        force_flash: true,
         width: 319,
         height: 280,
         image_format: "jpeg",

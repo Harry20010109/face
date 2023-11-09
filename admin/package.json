@@ -29,7 +29,7 @@
     "sweetalert": "^2.1.2"
   },
   "scripts": {
-    "start": "set PORT=3006 && react-scripts start --allowed-hosts *",
+    "start": "set PORT=3006 && set HOST=0.0.0.0 && react-scripts start --allowed-hosts *",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3006 && nodemon --exec electron .\"",

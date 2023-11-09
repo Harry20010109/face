@@ -2,7 +2,6 @@
   "name": "frontend",
   "version": "0.1.0",
   "main": "electron.js",
-  "proxy": "http://localhost:5000",
   "private": true,
   "build": {
     "extends": null

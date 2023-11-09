@@ -27,7 +27,6 @@ const Register = () => {
   useEffect(() => {
     if (webcamRef.current) {
       Webcam.set({
-        force_flash: true,
         width: 317,
         height: 280,
         image_format: "jpeg",

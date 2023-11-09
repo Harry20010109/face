@@ -1,0 +1,13 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "admin": "cd admin && npm start",
+    "user": "cd user && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run admin\" \"npm run user\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
